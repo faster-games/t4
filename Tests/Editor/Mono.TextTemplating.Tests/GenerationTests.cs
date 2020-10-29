@@ -63,7 +63,6 @@ namespace Mono.TextTemplating.Tests
 		public void InProcessCompilerTest ()
 		{
 			var gen = new TemplateGenerator ();
-			gen.UseInProcessCompiler ();
 			string tmp = null;
 			gen.ReferencePaths.Add (Path.GetDirectoryName (typeof (Uri).Assembly.Location));
 			gen.ReferencePaths.Add (Path.GetDirectoryName (typeof (System.Linq.Enumerable).Assembly.Location));

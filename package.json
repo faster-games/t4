@@ -1,0 +1,17 @@
+{
+  "name": "com.faster-games.t4",
+  "version": "1.0.0",
+  "displayName": "faster-games/t4",
+  "description": "TextTemplate support for Unity",
+  "unity": "2019.1",
+  "dependencies": {},
+  "keywords": [
+    "text",
+    "templates",
+    "t4"
+  ],
+  "author": {
+    "name": "Faster Games",
+    "url": "https://github.com/faster-games/t4"
+  }
+}
