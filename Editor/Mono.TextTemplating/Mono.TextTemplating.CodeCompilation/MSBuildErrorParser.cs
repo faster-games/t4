@@ -29,7 +29,7 @@ using System;
 
 namespace Mono.TextTemplating.CodeCompilation
 {
-	class CodeCompilerError
+	public class CodeCompilerError
 	{
 		public string Origin { get; set; }
 		public int Line { get; set; }
@@ -45,7 +45,7 @@ namespace Mono.TextTemplating.CodeCompilation
 	//originally from mono/mcs/class/Microsoft.Build.Utilities/Microsoft.Build.Utilities/MSBuildErrorParser.cs
 	//with many edits via monodevelop/main/src/core/MonoDevelop.Core/MonoDevelop.Projects/MSBuildErrorParser.cs
 	//see MonoDevelop repo for unit tests
-	static class MSBuildErrorParser
+	public static class MSBuildErrorParser
 	{
 		// Parses single-line error message in the standard MSBuild error format:
 		//
