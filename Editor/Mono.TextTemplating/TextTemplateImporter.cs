@@ -36,6 +36,13 @@ namespace FasterGames.T4.Editor
                     AssetDatabase.Refresh(ImportAssetOptions.ForceUpdate);
                 });
             }
+            else
+            {
+                foreach (var err in generator.Errors)
+                {
+                    Debug.LogError(err.ToString());
+                }
+            }
 
             var asset = new TextAsset(src);
             ctx.AddObjectToAsset("text", asset);
