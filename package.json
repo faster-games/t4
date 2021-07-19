@@ -1,0 +1,21 @@
+{
+  "name": "com.faster-games.t4",
+  "version": "0.0.1",
+  "displayName": "T4 Templates",
+  "description": "T4 text template generative importer for Unity3D",
+  "unity": "2020.3",
+  "unityRelease": "13f1",
+  "documentationUrl": "https://faster-games.com/docs/t4",
+  "changelogUrl": "https://faster-games.com/docs/t4/changelog",
+  "licensesUrl": "https://faster-games.com/docs/t4",
+  "dependencies": {},
+  "keywords": [
+    "faster-games",
+    "template"
+  ],
+  "author": {
+    "name": "Ben Greenier",
+    "email": "ben+faster-games@bengreenier.com",
+    "url": "https://bengreenier.com"
+  }
+}

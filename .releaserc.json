@@ -1,0 +1,33 @@
+{
+  "branches": ["main"],
+  "plugins": [
+    ["@semantic-release/commit-analyzer"],
+    ["@semantic-release/release-notes-generator"],
+    ["@semantic-release/changelog"],
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["package.json", "CHANGELOG.md", "!**/*.unitypackage"],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "assets": [
+          {
+            "path": "dist/com.faster-games.t4.unitypackage",
+            "name": "com.faster-games.t4-${nextRelease.gitTag}.unitypackage",
+            "label": "FasterGames.T4 ${nextRelease.gitTag}"
+          }
+        ]
+      }
+    ]
+  ]
+}

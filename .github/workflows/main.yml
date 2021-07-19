@@ -1,0 +1,83 @@
+name: CI
+
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  # Tests
+  testAllModes:
+    name: Test in ${{ matrix.testMode }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        testMode:
+          - playmode
+          - editmode
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: faster-games/package-testbed
+      - uses: actions/checkout@v2
+        with:
+          path: Packages/com.faster-games.t4
+      - uses: actions/cache@v2
+        with:
+          path: Library
+          key: Library-TestPlatform
+          restore-keys: |
+            Library-
+      - uses: game-ci/unity-test-runner@v2
+        id: tests
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        with:
+          projectPath: ./
+          testMode: ${{ matrix.testMode }}
+          artifactsPath: ${{ matrix.testMode }}-artifacts
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          checkName: ${{ matrix.testMode }} Test Results
+  release:
+    name: Release
+    needs: [testAllModes]
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Create dist directory
+        run: mkdir dist/
+      - uses: actions/checkout@v2
+        with:
+          repository: faster-games/UnityFX
+          path: dist/.unityfx
+      - name: Install semantic-release plugins
+        run: npm i --no-save @semantic-release/git @semantic-release/changelog
+      - name: Export .unitypackage
+        uses: bengreenier-actions/Unity-Package-Exporter@v1.0.0
+        with:
+          packagePath: ./
+          outputPackagePath: dist/com.faster-games.t4.unitypackage
+      - uses: bengreenier-actions/docfx-action@v1.0.0
+        name: Build docs
+        with:
+          args: ./docfx.json
+      - name: Deploy to GitHub Pages
+        uses: Cecilapp/GitHub-Pages-deploy@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          email: ben@bengreenier.com
+          build_dir: dist/docs
+          cname: t4.faster-games.com
+          jekyll: no
+      - name: Publish Release
+        uses: codfish/semantic-release-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

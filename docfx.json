@@ -1,0 +1,56 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": ["Runtime/**/*.cs", "Editor/**/*.cs"]
+        }
+      ],
+      "dest": "dist/.tmp/ref",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": ["**/*.yml"],
+        "src": "dist/.tmp/ref/",
+        "dest": "ref/"
+      },
+      {
+        "files": ["**/*.md", "**/toc.yml"],
+        "src": "Documentation~/",
+        "dest": "./"
+      }
+    ],
+    "resource": [
+      {
+        "files": ["favicon.ico", "header.png", "logo.svg"],
+        "src": "Documentation~/"
+      }
+    ],
+    "overwrite": [],
+    "dest": "dist/docs",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "dist/.unityfx/templates/default",
+      "dist/.unityfx/templates/unity"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false,
+    "globalMetadata": {
+      "_appTitle": "T4",
+      "_appFooter": "Copyright FasterGames ©",
+      "_description": "T4 text template generative importer for Unity3D",
+      "_appLogoPath": "logo.svg",
+      "_appFaviconPath": "favicon.ico",
+      "_enableSearch": false
+    }
+  }
+}

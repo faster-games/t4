@@ -1,0 +1,7 @@
+- name: Home
+  href: index.md
+- name: Manual
+  href: manual/
+  homepage: manual/getting-started.md
+- name: Scripting API
+  href: xref:FasterGames.T4
