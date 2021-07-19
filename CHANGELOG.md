@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/faster-games/t4/compare/v1.3.0...v1.3.1) (2021-07-19)
+
+
+### Bug Fixes
+
+* **typo:** Replace readme typo 😅 ([dd1bb44](https://github.com/faster-games/t4/commit/dd1bb441b2bfb049b82094b6164431fa96815842))
+
 # [1.3.0](https://github.com/faster-games/t4/compare/v1.2.1...v1.3.0) (2021-07-19)
 
 
