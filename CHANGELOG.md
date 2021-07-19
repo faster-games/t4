@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/faster-games/t4/compare/v1.0.1...v1.1.0) (2021-07-19)
+
+
+### Features
+
+* **dev-docs:** Update dev docs 📝 ([#2](https://github.com/faster-games/t4/issues/2)) ([9f1c588](https://github.com/faster-games/t4/commit/9f1c5887110e9c8e4efab655473f2a442e53a458))
+
 ## [1.0.1](https://github.com/faster-games/t4/compare/v1.0.0...v1.0.1) (2021-07-19)
 
 
