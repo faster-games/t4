@@ -68,3 +68,4 @@ _site
 
 # general dist
 dist/
+dist.meta
