@@ -307,7 +307,7 @@ namespace Mono.TextTemplating
 			return false;
 		}
 
-		internal static bool TryParseParameter (string parameter, out string processor, out string directive, out string name, out string value)
+		public static bool TryParseParameter (string parameter, out string processor, out string directive, out string name, out string value)
 		{
 			processor = directive = name = value = "";
 

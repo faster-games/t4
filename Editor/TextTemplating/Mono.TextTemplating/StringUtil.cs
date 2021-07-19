@@ -2,7 +2,7 @@ using System;
 
 namespace Mono.TextTemplating
 {
-	internal static class StringUtil
+	public static class StringUtil
 	{
 		public static Boolean IsNullOrWhiteSpace (String value)
 		{
