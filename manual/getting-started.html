@@ -102,7 +102,7 @@ namespace Events
 
 }
 </code></pre>
-<p>We embed a <code>foreach</code> loop that walks a list of type names (as strings). For each type, we create a class named <code>&lt;Type&gt;Event</code>, that inherits from <code>UnityEvent&lt;&lt;Type&gt;Event&gt;</code>. Here's the output:</p>
+<p>We embed a <code>foreach</code> loop that walks a list of type names (as strings). For each type, we create a class named <code>{Type}Event</code>, that inherits from <code>UnityEvent&lt;{Type}&gt;</code>. Here's the output:</p>
 <pre><code class="lang-cs">
 using System;
 using UnityEngine;
