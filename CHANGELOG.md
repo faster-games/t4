@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/faster-games/t4/compare/v1.2.0...v1.2.1) (2021-07-19)
+
+
+### Bug Fixes
+
+* **docs:** Redirecting link to editor docs 📝 ([833e3bc](https://github.com/faster-games/t4/commit/833e3bc8d723381dbf8fe012603878d6ab4c08b4))
+
 # [1.2.0](https://github.com/faster-games/t4/compare/v1.1.0...v1.2.0) (2021-07-19)
 
 
