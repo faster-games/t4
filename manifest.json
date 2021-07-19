@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/getting-started.html",
-          "hash": "S57Scd5Bx0woEwlhlKFdwg=="
+          "hash": "7jrIQWWH4y0yOPsvmu32DA=="
         }
       },
       "is_incremental": false,
@@ -85,12 +85,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Toc",
       "source_relative_path": "Documentation~/toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "bxk2jJo8NNRJuLwJL9JGAw=="
+          "hash": "hSpogdAqoJwArtvHvkAC0Q=="
         }
       },
       "is_incremental": false,
@@ -98,11 +101,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "dist/.tmp/ref/FasterGames.T4.Editor.EditorExample.yml",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.T4.Editor.TextTemplateImporter.yml",
       "output": {
         ".html": {
-          "relative_path": "ref/FasterGames.T4.Editor.EditorExample.html",
-          "hash": "8elJPTwg0UBVvYRcJBv3fg=="
+          "relative_path": "ref/FasterGames.T4.Editor.TextTemplateImporter.html",
+          "hash": "26lC7GhibtMQt1ML14OchA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.T4.Editor.TextTemplateIncludeImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.T4.Editor.TextTemplateIncludeImporter.html",
+          "hash": "vg0lh4kNefFa/T4kyi6hxg=="
         }
       },
       "is_incremental": false,
@@ -114,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/FasterGames.T4.Editor.html",
-          "hash": "a8obApBUXNsM/j1UsvLGxg=="
+          "hash": "F8eBCf2bczkKmTTSrDtnAQ=="
         }
       },
       "is_incremental": false,
@@ -122,11 +137,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "dist/.tmp/ref/FasterGames.T4.RuntimeExample.yml",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.yml",
       "output": {
         ".html": {
-          "relative_path": "ref/FasterGames.T4.RuntimeExample.html",
-          "hash": "B2MRfq+o9rj1bGTWWHrZxw=="
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html",
+          "hash": "TMOMdLEq0vqgEdhpWkGd3w=="
         }
       },
       "is_incremental": false,
@@ -134,11 +149,371 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "dist/.tmp/ref/FasterGames.T4.yml",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.DirectiveProcessorException.yml",
       "output": {
         ".html": {
-          "relative_path": "ref/FasterGames.T4.html",
-          "hash": "4LUz9JFkwonAdrwd8VEYfg=="
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.DirectiveProcessorException.html",
+          "hash": "vNOMAnBkKJxd1jA4Qf2Swg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.EncodingHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.EncodingHelper.html",
+          "hash": "y2YhB1hnQF30jcd1L8Wqkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.Engine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.Engine.html",
+          "hash": "3OyNNKyhgpbQqjUSkZGqIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.IDirectiveProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.IDirectiveProcessor.html",
+          "hash": "7/nqyEyquOonrj8yyxyebA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.IRecognizeHostSpecific.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.IRecognizeHostSpecific.html",
+          "hash": "nc6ZggkvC57iCwnJEL2OiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngine.html",
+          "hash": "nuLgVZ9rUll7bYmtTkOYWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost.html",
+          "hash": "oeLzqX0qFsAz/vSGN6HWcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.ITextTemplatingSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.ITextTemplatingSession.html",
+          "hash": "SyC9I4Ko7yh3Kvvm+TipjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.ITextTemplatingSessionHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.ITextTemplatingSessionHost.html",
+          "hash": "F4k2TEONQ5HH2TMkvLez1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.html",
+          "hash": "8aym4/SrO/pZH6lf7scWxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor.html",
+          "hash": "WjnZYgU/0ZB6ito4FjLRcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.TextTemplatingSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.TextTemplatingSession.html",
+          "hash": "i7mADypmEkFBhD5Nluai+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.TextTransformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.TextTransformation.html",
+          "hash": "Rvv/44Agd401rKJJP21XAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.ToStringHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.ToStringHelper.html",
+          "hash": "lfk3zS4bdc5AlW63y5yukw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Microsoft.VisualStudio.TextTemplating.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.html",
+          "hash": "9/D0qtd+npw7ztyk8qXf2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.CompiledTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.CompiledTemplate.html",
+          "hash": "D37HMmOgKc98IHXmpn1zsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.CustomDirective.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.CustomDirective.html",
+          "hash": "xwwUPUtJIona6HDgDjc0tA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.Directive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.Directive.html",
+          "hash": "Ff1xtyUgnZ7vBB+1Lcki4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.ISegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.ISegment.html",
+          "hash": "f3IQnu3oGPvmyDEWxx9jvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.Location.html",
+          "hash": "yJGpQ/Iw0D4Kgdu98+45CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.ParsedTemplate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.ParsedTemplate.html",
+          "hash": "4WDlgXBzs5GvO1yWRkyYdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.ParserException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.ParserException.html",
+          "hash": "9yznxKM5Z8neK6hKPJcv5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.SegmentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.SegmentType.html",
+          "hash": "75WBa52IcQcDiElfwCdrbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.State.html",
+          "hash": "ZiegX/IIfwITHR2M/mpYPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.StringUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.StringUtil.html",
+          "hash": "SB2EcPNomRcUyhYxm8Hpyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.TemplateGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.TemplateGenerator.html",
+          "hash": "gF50B4H+vn6vteLl6la6tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.TemplateSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.TemplateSegment.html",
+          "hash": "LmHU85Gvn5+mv5eawTidDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.TemplateSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.TemplateSettings.html",
+          "hash": "kdhSi+o7gz70zyhy6map/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.TemplatingEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.TemplatingEngine.html",
+          "hash": "AZJncEOhD7HciLdL19OcNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.Tokeniser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.Tokeniser.html",
+          "hash": "ho1fQj91WV5QStkRq2pmcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/Mono.TextTemplating.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/Mono.TextTemplating.html",
+          "hash": "3UCJyCt0LdgXU0Ij1XP6Qw=="
         }
       },
       "is_incremental": false,
@@ -150,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/toc.html",
-          "hash": "JesvuKQPV0qPF0CZQkfeRQ=="
+          "hash": "+Eq/HopPcZDTQ1b7ksetbw=="
         }
       },
       "is_incremental": false,
@@ -177,7 +552,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 35,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

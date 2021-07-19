@@ -1,0 +1,541 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ParameterDirectiveProcessor
+   | T4 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ParameterDirectiveProcessor
+   | T4 ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="description" content="T4 text template generative importer for Unity3D">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor">
+  
+  
+  <h1 id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor" class="text-break">Class ParameterDirectiveProcessor
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html">DirectiveProcessor</a></div>
+    <div class="level2"><span class="xref">ParameterDirectiveProcessor</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Microsoft.VisualStudio.TextTemplating.IDirectiveProcessor.html">IDirectiveProcessor</a></div>
+    <div><a class="xref" href="Microsoft.VisualStudio.TextTemplating.IRecognizeHostSpecific.html">IRecognizeHostSpecific</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html#Microsoft_VisualStudio_TextTemplating_DirectiveProcessor_Initialize_Microsoft_VisualStudio_TextTemplating_ITextTemplatingEngineHost_">DirectiveProcessor.Initialize(ITextTemplatingEngineHost)</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html#Microsoft_VisualStudio_TextTemplating_DirectiveProcessor_GetTemplateClassCustomAttributes">DirectiveProcessor.GetTemplateClassCustomAttributes()</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html#Microsoft_VisualStudio_TextTemplating_DirectiveProcessor_Microsoft_VisualStudio_TextTemplating_IDirectiveProcessor_Errors">DirectiveProcessor.IDirectiveProcessor.Errors</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html#Microsoft_VisualStudio_TextTemplating_DirectiveProcessor_Microsoft_VisualStudio_TextTemplating_IDirectiveProcessor_SetProcessingRunIsHostSpecific_System_Boolean_">DirectiveProcessor.IDirectiveProcessor.SetProcessingRunIsHostSpecific(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html#Microsoft_VisualStudio_TextTemplating_DirectiveProcessor_Microsoft_VisualStudio_TextTemplating_IDirectiveProcessor_RequiresProcessingRunIsHostSpecific">DirectiveProcessor.IDirectiveProcessor.RequiresProcessingRunIsHostSpecific</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Microsoft.VisualStudio.TextTemplating.html">Microsoft.VisualStudio.TextTemplating</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ParameterDirectiveProcessor : DirectiveProcessor, IDirectiveProcessor, IRecognizeHostSpecific</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_RequiresProcessingRunIsHostSpecific_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.RequiresProcessingRunIsHostSpecific*"></a>
+  <h4 id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_RequiresProcessingRunIsHostSpecific" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.RequiresProcessingRunIsHostSpecific">RequiresProcessingRunIsHostSpecific</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RequiresProcessingRunIsHostSpecific { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_FinishProcessingRun_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.FinishProcessingRun*"></a>
+  <h4 id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_FinishProcessingRun" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.FinishProcessingRun">FinishProcessingRun()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void FinishProcessingRun()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html#Microsoft_VisualStudio_TextTemplating_DirectiveProcessor_FinishProcessingRun">DirectiveProcessor.FinishProcessingRun()</a></div>
+  
+  
+  <a id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_GetClassCodeForProcessingRun_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.GetClassCodeForProcessingRun*"></a>
+  <h4 id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_GetClassCodeForProcessingRun" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.GetClassCodeForProcessingRun">GetClassCodeForProcessingRun()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string GetClassCodeForProcessingRun()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html#Microsoft_VisualStudio_TextTemplating_DirectiveProcessor_GetClassCodeForProcessingRun">DirectiveProcessor.GetClassCodeForProcessingRun()</a></div>
+  
+  
+  <a id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_GetImportsForProcessingRun_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.GetImportsForProcessingRun*"></a>
+  <h4 id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_GetImportsForProcessingRun" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.GetImportsForProcessingRun">GetImportsForProcessingRun()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string[] GetImportsForProcessingRun()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html#Microsoft_VisualStudio_TextTemplating_DirectiveProcessor_GetImportsForProcessingRun">DirectiveProcessor.GetImportsForProcessingRun()</a></div>
+  
+  
+  <a id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_GetPostInitializationCodeForProcessingRun_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.GetPostInitializationCodeForProcessingRun*"></a>
+  <h4 id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_GetPostInitializationCodeForProcessingRun" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.GetPostInitializationCodeForProcessingRun">GetPostInitializationCodeForProcessingRun()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string GetPostInitializationCodeForProcessingRun()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html#Microsoft_VisualStudio_TextTemplating_DirectiveProcessor_GetPostInitializationCodeForProcessingRun">DirectiveProcessor.GetPostInitializationCodeForProcessingRun()</a></div>
+  
+  
+  <a id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_GetPreInitializationCodeForProcessingRun_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.GetPreInitializationCodeForProcessingRun*"></a>
+  <h4 id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_GetPreInitializationCodeForProcessingRun" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.GetPreInitializationCodeForProcessingRun">GetPreInitializationCodeForProcessingRun()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string GetPreInitializationCodeForProcessingRun()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html#Microsoft_VisualStudio_TextTemplating_DirectiveProcessor_GetPreInitializationCodeForProcessingRun">DirectiveProcessor.GetPreInitializationCodeForProcessingRun()</a></div>
+  
+  
+  <a id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_GetReferencesForProcessingRun_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.GetReferencesForProcessingRun*"></a>
+  <h4 id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_GetReferencesForProcessingRun" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.GetReferencesForProcessingRun">GetReferencesForProcessingRun()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string[] GetReferencesForProcessingRun()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html#Microsoft_VisualStudio_TextTemplating_DirectiveProcessor_GetReferencesForProcessingRun">DirectiveProcessor.GetReferencesForProcessingRun()</a></div>
+  
+  
+  <a id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_IsDirectiveSupported_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.IsDirectiveSupported*"></a>
+  <h4 id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_IsDirectiveSupported_System_String_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.IsDirectiveSupported(System.String)">IsDirectiveSupported(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsDirectiveSupported(string directiveName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">directiveName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html#Microsoft_VisualStudio_TextTemplating_DirectiveProcessor_IsDirectiveSupported_System_String_">DirectiveProcessor.IsDirectiveSupported(String)</a></div>
+  
+  
+  <a id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_MapTypeName_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.MapTypeName*"></a>
+  <h4 id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_MapTypeName_System_String_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.MapTypeName(System.String)">MapTypeName(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string MapTypeName(string typeName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">typeName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_ProcessDirective_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.ProcessDirective*"></a>
+  <h4 id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_ProcessDirective_System_String_System_Collections_Generic_IDictionary_System_String_System_String__" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.ProcessDirective(System.String,System.Collections.Generic.IDictionary{System.String,System.String})">ProcessDirective(String, IDictionary&lt;String, String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ProcessDirective(string directiveName, IDictionary&lt;string, string&gt; arguments)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">directiveName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">arguments</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html#Microsoft_VisualStudio_TextTemplating_DirectiveProcessor_ProcessDirective_System_String_System_Collections_Generic_IDictionary_System_String_System_String__">DirectiveProcessor.ProcessDirective(String, IDictionary&lt;String, String&gt;)</a></div>
+  
+  
+  <a id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_StartProcessingRun_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.StartProcessingRun*"></a>
+  <h4 id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_StartProcessingRun_CodeDomProvider_System_String_CompilerErrorCollection_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.StartProcessingRun(CodeDomProvider,System.String,CompilerErrorCollection)">StartProcessingRun(CodeDomProvider, String, CompilerErrorCollection)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void StartProcessingRun(CodeDomProvider languageProvider, string templateContents, CompilerErrorCollection errors)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CodeDomProvider</span></td>
+        <td><span class="parametername">languageProvider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">templateContents</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">CompilerErrorCollection</span></td>
+        <td><span class="parametername">errors</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Microsoft.VisualStudio.TextTemplating.DirectiveProcessor.html#Microsoft_VisualStudio_TextTemplating_DirectiveProcessor_StartProcessingRun_CodeDomProvider_System_String_CompilerErrorCollection_">DirectiveProcessor.StartProcessingRun(CodeDomProvider, String, CompilerErrorCollection)</a></div>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_Microsoft_VisualStudio_TextTemplating_IRecognizeHostSpecific_SetProcessingRunIsHostSpecific_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.Microsoft#VisualStudio#TextTemplating#IRecognizeHostSpecific#SetProcessingRunIsHostSpecific*"></a>
+  <h4 id="Microsoft_VisualStudio_TextTemplating_ParameterDirectiveProcessor_Microsoft_VisualStudio_TextTemplating_IRecognizeHostSpecific_SetProcessingRunIsHostSpecific_System_Boolean_" data-uid="Microsoft.VisualStudio.TextTemplating.ParameterDirectiveProcessor.Microsoft#VisualStudio#TextTemplating#IRecognizeHostSpecific#SetProcessingRunIsHostSpecific(System.Boolean)">IRecognizeHostSpecific.SetProcessingRunIsHostSpecific(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IRecognizeHostSpecific.SetProcessingRunIsHostSpecific(bool hostSpecific)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">hostSpecific</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Microsoft.VisualStudio.TextTemplating.IDirectiveProcessor.html">IDirectiveProcessor</a>
+  </div>
+  <div>
+      <a class="xref" href="Microsoft.VisualStudio.TextTemplating.IRecognizeHostSpecific.html">IRecognizeHostSpecific</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright FasterGames ©
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
