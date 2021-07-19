@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/faster-games/t4/compare/v1.1.0...v1.2.0) (2021-07-19)
+
+
+### Bug Fixes
+
+* **docs:** fix example typo 🐛 ([#4](https://github.com/faster-games/t4/issues/4)) ([0051ae6](https://github.com/faster-games/t4/commit/0051ae6d7bb2e300a40d85336c3e62adad8a2433))
+
+
+### Features
+
+* **mono-t4:** Add generation support 🚀 ([#3](https://github.com/faster-games/t4/issues/3)) ([612fbb0](https://github.com/faster-games/t4/commit/612fbb0dfe7e9828a62ee53e819e67a0fac4ea10))
+
 # [1.1.0](https://github.com/faster-games/t4/compare/v1.0.1...v1.1.0) (2021-07-19)
 
 
