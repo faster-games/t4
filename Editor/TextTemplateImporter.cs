@@ -20,7 +20,7 @@ namespace FasterGames.T4.Editor
         /// Flag; If set, any empty files that are generated will be ignored.
         /// </summary>
         [Tooltip("If set, any empty files that are generated will be ignored.")]
-        public bool removeIfEmptyGeneration = false;
+        public bool removeIfEmptyGeneration = true;
 
         /// <inheritdoc />
         public override void OnImportAsset(AssetImportContext ctx)
