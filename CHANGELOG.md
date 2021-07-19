@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/faster-games/t4/compare/v1.0.0...v1.0.1) (2021-07-19)
+
+
+### Bug Fixes
+
+* **header:** Update header images 🎨 ([1a23378](https://github.com/faster-games/t4/commit/1a23378e6243e9ad5c81595228b4c301108b4e99))
+
 # 1.0.0 (2021-07-19)
 
 
