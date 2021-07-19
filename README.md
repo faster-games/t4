@@ -1,6 +1,6 @@
 # t4
 
-![Project logo; A pink package on a grey background, next to the text "T4" in purple](./Documentation~/header.png)
+![Project logo; A pink package on a grey background, next to the text "T4 Templates" in purple](./Documentation~/header.png)
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/faster-games/t4)
 [![openupm](https://img.shields.io/npm/v/com.faster-games.t4?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.faster-games.t4/)
