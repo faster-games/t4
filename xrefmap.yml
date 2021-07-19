@@ -1,0 +1,27 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: FasterGames.T4
+  name: FasterGames.T4
+  href: ref/FasterGames.T4.html
+  commentId: N:FasterGames.T4
+  fullName: FasterGames.T4
+  nameWithType: FasterGames.T4
+- uid: FasterGames.T4.Editor
+  name: FasterGames.T4.Editor
+  href: ref/FasterGames.T4.Editor.html
+  commentId: N:FasterGames.T4.Editor
+  fullName: FasterGames.T4.Editor
+  nameWithType: FasterGames.T4.Editor
+- uid: FasterGames.T4.Editor.EditorExample
+  name: EditorExample
+  href: ref/FasterGames.T4.Editor.EditorExample.html
+  commentId: T:FasterGames.T4.Editor.EditorExample
+  fullName: FasterGames.T4.Editor.EditorExample
+  nameWithType: EditorExample
+- uid: FasterGames.T4.RuntimeExample
+  name: RuntimeExample
+  href: ref/FasterGames.T4.RuntimeExample.html
+  commentId: T:FasterGames.T4.RuntimeExample
+  fullName: FasterGames.T4.RuntimeExample
+  nameWithType: RuntimeExample
