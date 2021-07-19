@@ -30,6 +30,7 @@ Copy-Item -Recurse -Path "$WorkingDirectory/lib/t4-$Version/Mono.TextTemplating.
 Remove-Item -Recurse -Force "$WorkingDirectory/lib"
 Remove-Item -Force "$WorkingDirectory/TextTemplating/Mono.TextTemplating.csproj"
 Remove-Item -Force "$WorkingDirectory/TextTemplating.Tests/Mono.TextTemplating.Tests.csproj"
+Remove-Item -Force "$WorkingDirectory/TextTemplating.Tests/MSBuildErrorParserTests.cs"
 Remove-Item -Force "$WorkingDirectory/TextTemplating/AssemblyInfo.cs"
 Remove-Item -Force "$WorkingDirectory/lib.zip"
 
@@ -49,4 +50,6 @@ if ($UpdateTests)
 		Remove-Item -Recurse -Force "$TestDirectory/"
 	} catch {}
 	Copy-Item -Recurse -Path "$WorkingDirectory/TextTemplating.Tests/" -Destination "$TestDirectory/"
+
+	git am Documentation~/scripts/lib-visibility.patch
 }

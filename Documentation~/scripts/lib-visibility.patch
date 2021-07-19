@@ -1,0 +1,43 @@
+From acd71f305824e38b35621bb7f2aeee5a0aedf734 Mon Sep 17 00:00:00 2001
+From: Ben Greenier <ben@bengreenier.com>
+Date: Mon, 19 Jul 2021 12:48:24 -0700
+Subject: [PATCH] =?UTF-8?q?fix(patch-lib):=20Patch=20visibility=20for=20te?=
+ =?UTF-8?q?sting=20=F0=9F=91=80?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ Editor/TextTemplating/Mono.TextTemplating/StringUtil.cs        | 2 +-
+ Editor/TextTemplating/Mono.TextTemplating/TemplateGenerator.cs | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/Editor/TextTemplating/Mono.TextTemplating/StringUtil.cs b/Editor/TextTemplating/Mono.TextTemplating/StringUtil.cs
+index bfcadb5..386fd53 100644
+--- a/Editor/TextTemplating/Mono.TextTemplating/StringUtil.cs
++++ b/Editor/TextTemplating/Mono.TextTemplating/StringUtil.cs
+@@ -2,7 +2,7 @@ using System;
+ 
+ namespace Mono.TextTemplating
+ {
+-	internal static class StringUtil
++	public static class StringUtil
+ 	{
+ 		public static Boolean IsNullOrWhiteSpace (String value)
+ 		{
+diff --git a/Editor/TextTemplating/Mono.TextTemplating/TemplateGenerator.cs b/Editor/TextTemplating/Mono.TextTemplating/TemplateGenerator.cs
+index 24e7c3f..8986240 100644
+--- a/Editor/TextTemplating/Mono.TextTemplating/TemplateGenerator.cs
++++ b/Editor/TextTemplating/Mono.TextTemplating/TemplateGenerator.cs
+@@ -307,7 +307,7 @@ namespace Mono.TextTemplating
+ 			return false;
+ 		}
+ 
+-		internal static bool TryParseParameter (string parameter, out string processor, out string directive, out string name, out string value)
++		public static bool TryParseParameter (string parameter, out string processor, out string directive, out string name, out string value)
+ 		{
+ 			processor = directive = name = value = "";
+ 
+-- 
+2.30.1.windows.1
+
