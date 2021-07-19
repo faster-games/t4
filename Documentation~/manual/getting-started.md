@@ -39,7 +39,7 @@ namespace Events
 }
 ```
 
-We embed a `foreach` loop that walks a list of type names (as strings). For each type, we create a class named `<Type>Event`, that inherits from `UnityEvent<<Type>Event>`. Here's the output:
+We embed a `foreach` loop that walks a list of type names (as strings). For each type, we create a class named `{Type}Event`, that inherits from `UnityEvent<{Type}>`. Here's the output:
 
 ```cs
 
