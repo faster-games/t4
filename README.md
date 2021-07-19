@@ -26,7 +26,7 @@ Or by adding directly to your `manifest.json`:
 ```
 dependencies: {
 	...
-	"com.faster-games.whiskey": "git+https://github.com/faster-games/t4.git"
+	"com.faster-games.t4": "git+https://github.com/faster-games/t4.git"
 }
 ```
 
