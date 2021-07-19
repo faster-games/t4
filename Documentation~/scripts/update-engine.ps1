@@ -1,6 +1,6 @@
 param (
 		[string]
-		$Version = "2.2.1"
+		$Version = "2.0.5"
 )
 
 $WorkingDirectory="dist/.t4"
@@ -27,3 +27,5 @@ try {
 	Remove-Item -Recurse -Force "$LibDirectory/"
 } catch {}
 Copy-Item -Recurse -Path "$WorkingDirectory/TextTemplating/" -Destination "$LibDirectory/"
+
+git am Documentation~/scripts/file-utils.patch
