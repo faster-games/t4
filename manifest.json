@@ -31,7 +31,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "CfOwAdu2kdYb9hRPd9c6Sw=="
+          "hash": "Ub83vp7mH7Md8/i+LqofzQ=="
         }
       },
       "is_incremental": false,
@@ -91,6 +91,18 @@
         ".html": {
           "relative_path": "toc.html",
           "hash": "oOn6PBI8BlRCV16LLnqg7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "4IGQpJfwDihw07T6UZvvdw=="
         }
       },
       "is_incremental": false,
@@ -543,7 +555,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 4,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
