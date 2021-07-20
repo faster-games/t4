@@ -19,6 +19,11 @@
         "dest": "ref/"
       },
       {
+        "files": ["README.md"],
+        "src": "./",
+        "dest": "./"
+      },
+      {
         "files": ["**/*.md", "**/toc.yml"],
         "src": "Documentation~/",
         "dest": "./"
