@@ -5,9 +5,9 @@
   "description": "T4 text template generative importer for Unity3D",
   "unity": "2020.3",
   "unityRelease": "13f1",
-  "documentationUrl": "https://faster-games.com/docs/t4",
-  "changelogUrl": "https://faster-games.com/docs/t4/changelog",
-  "licensesUrl": "https://faster-games.com/docs/t4",
+  "documentationUrl": "https://t4.faster-games.com/",
+  "changelogUrl": "https://github.com/faster-games/t4/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/faster-games/t4/blob/main/LICENSE.md",
   "dependencies": {},
   "keywords": [
     "faster-games",
