@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Data Binding | T4 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Data Binding | T4 ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="description" content="T4 text template generative importer for Unity3D">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="data-binding">Data Binding</h1>
+
+<blockquote>
+<p>Note: This is a <code>Beta</code> feature, and is being actively developed. To use this feature, you need <a class="xref" href="../ref/FasterGames.T4.Editor.TextTemplateImporter.html#FasterGames_T4_Editor_TextTemplateImporter_importerVersion"><code>importerVersion</code></a> to be set to <a class="xref" href="../ref/FasterGames.T4.Editor.ImporterVersion.html#FasterGames_T4_Editor_ImporterVersion_Beta"><code>Beta</code></a>.</p>
+</blockquote>
+<p>Data binding allows sharing data from Unity with a template. This allows the template to access and use that data during generation.</p>
+<h2 id="getting-started">Getting started</h2>
+<ul>
+<li>Create a class to represent the data you wish to embed:</li>
+</ul>
+<pre><code>[CreateAssetMenu(menuName = &quot;EmbedData&quot;)]
+public class EmbedData : ScriptableObject
+{
+	public List&lt;string&gt; Animals;
+}
+</code></pre>
+<ul>
+<li>Create an instance of this data in the Editor <a href="https://docs.unity3d.com/Manual/ProjectView.html">Project window</a> (Right click -&gt; Create -&gt; EmbedData)</li>
+<li>Create a TT file to use this data:</li>
+</ul>
+<pre><code>&lt;#@ template debug=&quot;false&quot; hostspecific=&quot;true&quot; language=&quot;C#&quot; #&gt;
+&lt;#@ output extension=&quot;.cs&quot; #&gt;
+&lt;#@ import namespace=&quot;System.IO&quot; #&gt;
+using System;
+
+&lt;#
+    foreach (var animal in Host.Data.Animals)
+    {
+#&gt;
+
+[Serializable]
+public class &lt;#= animal#&gt;Test {}
+
+&lt;#
+    }
+#&gt;
+</code></pre>
+<ul>
+<li>Select the TT file in the <a href="https://docs.unity3d.com/Manual/ProjectView.html">Project window</a></li>
+<li>In the <a href="https://docs.unity3d.com/Manual/UsingTheInspector.html">Inspector</a> ensure <a class="xref" href="../ref/FasterGames.T4.Editor.TextTemplateImporter.html#FasterGames_T4_Editor_TextTemplateImporter_importerVersion"><code>importerVersion</code></a> is set to <a class="xref" href="../ref/FasterGames.T4.Editor.ImporterVersion.html#FasterGames_T4_Editor_ImporterVersion_Beta"><code>Beta</code></a></li>
+<li>Drag the data instance you created in the <a href="https://docs.unity3d.com/Manual/ProjectView.html">Project window</a> to the <a class="xref" href="../ref/FasterGames.T4.Editor.TextTemplateImporter.html#FasterGames_T4_Editor_TextTemplateImporter_embeddedData"><code>embeddedData</code></a> section in the <a href="https://docs.unity3d.com/Manual/UsingTheInspector.html">Inspector</a></li>
+<li>Select &quot;Apply&quot;</li>
+</ul>
+<p>This will cause the template to be run such that <code>Host.Data</code> is the instance of your data.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<h3 id="does-the-template-need-to-be-host-specific">Does the template need to be host specific?</h3>
+<p>Yes - to inform the template engine to use the host with our data, <a href="https://docs.microsoft.com/en-us/visualstudio/modeling/t4-template-directive?view=vs-2019#hostspecific-attribute"><code>hostspecific</code></a> must be set to <code>true</code>.</p>
+<p>For instance:</p>
+<pre><code>&lt;#@ template debug=&quot;false&quot; hostspecific=&quot;true&quot; language=&quot;C#&quot; #&gt;
+</code></pre>
+<h3 id="why-does-my-template-break-when-embeddeddata-is-enabled">Why does my template break when embeddedData is enabled?</h3>
+<p>If  your template fails to generate content after embedding data, this may be because the data class you're using is complex, and references other types that the template environment is not aware of. Usually if this is the case, the error will inform you of what type is missing. You may specify this type in <a class="xref" href="../ref/FasterGames.T4.Editor.TextTemplateImporter.html#FasterGames_T4_Editor_TextTemplateImporter_additionalTypes"><code>additionalTypes</code></a> list, or simplify your data class.</p>
+<p>If you're not able to get it working, please <a href="https://github.com/faster-games/t4/issues/new">open an Issue</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/faster-games/t4/blob/main/Documentation~/manual/data-binding.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright FasterGames ©
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

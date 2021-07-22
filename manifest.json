@@ -62,6 +62,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "Documentation~/manual/data-binding.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/data-binding.html",
+          "hash": "J64XkY/ulmlBopU6E6U45w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "Documentation~/manual/getting-started.md",
       "output": {
         ".html": {
@@ -78,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "3jsvwpm19LiWd+Dp0gBi3g=="
+          "hash": "mJ4s/RN+FdSEBHTpsBy3Dg=="
         }
       },
       "is_incremental": false,
@@ -110,11 +122,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.T4.Editor.EditorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.T4.Editor.EditorExtensions.html",
+          "hash": "TN1MqDbZ0kahzcJlz2md5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.T4.Editor.ImporterVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.T4.Editor.ImporterVersion.html",
+          "hash": "kbWGZBb7we4JhEDSQo8Hpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "dist/.tmp/ref/FasterGames.T4.Editor.TextTemplateImporter.yml",
       "output": {
         ".html": {
           "relative_path": "ref/FasterGames.T4.Editor.TextTemplateImporter.html",
-          "hash": "26lC7GhibtMQt1ML14OchA=="
+          "hash": "7zuj0ntgCFHV5U2W0dbeNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.T4.Editor.TextTemplateImporterEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.T4.Editor.TextTemplateImporterEditor.html",
+          "hash": "gKsg1EOE7ZnbtbDIPCvAaA=="
         }
       },
       "is_incremental": false,
@@ -134,11 +182,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.T4.Editor.UnityDataHost-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.T4.Editor.UnityDataHost-1.html",
+          "hash": "havzbglPUPJOe4gcwBYIkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "dist/.tmp/ref/FasterGames.T4.Editor.yml",
       "output": {
         ".html": {
           "relative_path": "ref/FasterGames.T4.Editor.html",
-          "hash": "F8eBCf2bczkKmTTSrDtnAQ=="
+          "hash": "dRJXA/zKHRapf2gwuy39YQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.T4.Runtime.IDataHost-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.T4.Runtime.IDataHost-1.html",
+          "hash": "eni6x0UUdhLCeAiFPocSuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "dist/.tmp/ref/FasterGames.T4.Runtime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ref/FasterGames.T4.Runtime.html",
+          "hash": "jo9c3IFf8cPceU8ADhK8JA=="
         }
       },
       "is_incremental": false,
@@ -246,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.ITextTemplatingSession.html",
-          "hash": "SyC9I4Ko7yh3Kvvm+TipjA=="
+          "hash": "MHRU5Wu7uKe3MFLkyqChWg=="
         }
       },
       "is_incremental": false,
@@ -294,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Microsoft.VisualStudio.TextTemplating.TextTemplatingSession.html",
-          "hash": "i7mADypmEkFBhD5Nluai+A=="
+          "hash": "U8460M+vL1mtkz2qoHVKuA=="
         }
       },
       "is_incremental": false,
@@ -462,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Mono.TextTemplating.TemplateGenerator.html",
-          "hash": "gF50B4H+vn6vteLl6la6tw=="
+          "hash": "N/OURyKDvCY7nHr9C4yLBw=="
         }
       },
       "is_incremental": false,
@@ -486,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Mono.TextTemplating.TemplateSettings.html",
-          "hash": "kdhSi+o7gz70zyhy6map/A=="
+          "hash": "LRsBehujCynVYnITPUjsGA=="
         }
       },
       "is_incremental": false,
@@ -498,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/Mono.TextTemplating.TemplatingEngine.html",
-          "hash": "AZJncEOhD7HciLdL19OcNQ=="
+          "hash": "XmNGG5wgEPMnDZP6N/e6vQ=="
         }
       },
       "is_incremental": false,
@@ -534,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "ref/toc.html",
-          "hash": "+Eq/HopPcZDTQ1b7ksetbw=="
+          "hash": "XkpKpaw+9l7sqAS2lbDqfQ=="
         }
       },
       "is_incremental": false,
@@ -555,13 +639,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 35,
+          "total_file_count": 41,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -7,12 +7,80 @@ references:
   commentId: N:FasterGames.T4.Editor
   fullName: FasterGames.T4.Editor
   nameWithType: FasterGames.T4.Editor
+- uid: FasterGames.T4.Editor.EditorExtensions
+  name: EditorExtensions
+  href: ref/FasterGames.T4.Editor.EditorExtensions.html
+  commentId: T:FasterGames.T4.Editor.EditorExtensions
+  fullName: FasterGames.T4.Editor.EditorExtensions
+  nameWithType: EditorExtensions
+- uid: FasterGames.T4.Editor.EditorExtensions.CreateTTFile
+  name: CreateTTFile()
+  href: ref/FasterGames.T4.Editor.EditorExtensions.html#FasterGames_T4_Editor_EditorExtensions_CreateTTFile
+  commentId: M:FasterGames.T4.Editor.EditorExtensions.CreateTTFile
+  fullName: FasterGames.T4.Editor.EditorExtensions.CreateTTFile()
+  nameWithType: EditorExtensions.CreateTTFile()
+- uid: FasterGames.T4.Editor.EditorExtensions.CreateTTFile*
+  name: CreateTTFile
+  href: ref/FasterGames.T4.Editor.EditorExtensions.html#FasterGames_T4_Editor_EditorExtensions_CreateTTFile_
+  commentId: Overload:FasterGames.T4.Editor.EditorExtensions.CreateTTFile
+  isSpec: "True"
+  fullName: FasterGames.T4.Editor.EditorExtensions.CreateTTFile
+  nameWithType: EditorExtensions.CreateTTFile
+- uid: FasterGames.T4.Editor.EditorExtensions.CreateTTIncludeFile
+  name: CreateTTIncludeFile()
+  href: ref/FasterGames.T4.Editor.EditorExtensions.html#FasterGames_T4_Editor_EditorExtensions_CreateTTIncludeFile
+  commentId: M:FasterGames.T4.Editor.EditorExtensions.CreateTTIncludeFile
+  fullName: FasterGames.T4.Editor.EditorExtensions.CreateTTIncludeFile()
+  nameWithType: EditorExtensions.CreateTTIncludeFile()
+- uid: FasterGames.T4.Editor.EditorExtensions.CreateTTIncludeFile*
+  name: CreateTTIncludeFile
+  href: ref/FasterGames.T4.Editor.EditorExtensions.html#FasterGames_T4_Editor_EditorExtensions_CreateTTIncludeFile_
+  commentId: Overload:FasterGames.T4.Editor.EditorExtensions.CreateTTIncludeFile
+  isSpec: "True"
+  fullName: FasterGames.T4.Editor.EditorExtensions.CreateTTIncludeFile
+  nameWithType: EditorExtensions.CreateTTIncludeFile
+- uid: FasterGames.T4.Editor.ImporterVersion
+  name: ImporterVersion
+  href: ref/FasterGames.T4.Editor.ImporterVersion.html
+  commentId: T:FasterGames.T4.Editor.ImporterVersion
+  fullName: FasterGames.T4.Editor.ImporterVersion
+  nameWithType: ImporterVersion
+- uid: FasterGames.T4.Editor.ImporterVersion.Beta
+  name: Beta
+  href: ref/FasterGames.T4.Editor.ImporterVersion.html#FasterGames_T4_Editor_ImporterVersion_Beta
+  commentId: F:FasterGames.T4.Editor.ImporterVersion.Beta
+  fullName: FasterGames.T4.Editor.ImporterVersion.Beta
+  nameWithType: ImporterVersion.Beta
+- uid: FasterGames.T4.Editor.ImporterVersion.Stable
+  name: Stable
+  href: ref/FasterGames.T4.Editor.ImporterVersion.html#FasterGames_T4_Editor_ImporterVersion_Stable
+  commentId: F:FasterGames.T4.Editor.ImporterVersion.Stable
+  fullName: FasterGames.T4.Editor.ImporterVersion.Stable
+  nameWithType: ImporterVersion.Stable
 - uid: FasterGames.T4.Editor.TextTemplateImporter
   name: TextTemplateImporter
   href: ref/FasterGames.T4.Editor.TextTemplateImporter.html
   commentId: T:FasterGames.T4.Editor.TextTemplateImporter
   fullName: FasterGames.T4.Editor.TextTemplateImporter
   nameWithType: TextTemplateImporter
+- uid: FasterGames.T4.Editor.TextTemplateImporter.additionalTypes
+  name: additionalTypes
+  href: ref/FasterGames.T4.Editor.TextTemplateImporter.html#FasterGames_T4_Editor_TextTemplateImporter_additionalTypes
+  commentId: F:FasterGames.T4.Editor.TextTemplateImporter.additionalTypes
+  fullName: FasterGames.T4.Editor.TextTemplateImporter.additionalTypes
+  nameWithType: TextTemplateImporter.additionalTypes
+- uid: FasterGames.T4.Editor.TextTemplateImporter.embeddedData
+  name: embeddedData
+  href: ref/FasterGames.T4.Editor.TextTemplateImporter.html#FasterGames_T4_Editor_TextTemplateImporter_embeddedData
+  commentId: F:FasterGames.T4.Editor.TextTemplateImporter.embeddedData
+  fullName: FasterGames.T4.Editor.TextTemplateImporter.embeddedData
+  nameWithType: TextTemplateImporter.embeddedData
+- uid: FasterGames.T4.Editor.TextTemplateImporter.importerVersion
+  name: importerVersion
+  href: ref/FasterGames.T4.Editor.TextTemplateImporter.html#FasterGames_T4_Editor_TextTemplateImporter_importerVersion
+  commentId: F:FasterGames.T4.Editor.TextTemplateImporter.importerVersion
+  fullName: FasterGames.T4.Editor.TextTemplateImporter.importerVersion
+  nameWithType: TextTemplateImporter.importerVersion
 - uid: FasterGames.T4.Editor.TextTemplateImporter.OnImportAsset(AssetImportContext)
   name: OnImportAsset(AssetImportContext)
   href: ref/FasterGames.T4.Editor.TextTemplateImporter.html#FasterGames_T4_Editor_TextTemplateImporter_OnImportAsset_AssetImportContext_
@@ -32,6 +100,25 @@ references:
   commentId: F:FasterGames.T4.Editor.TextTemplateImporter.removeIfEmptyGeneration
   fullName: FasterGames.T4.Editor.TextTemplateImporter.removeIfEmptyGeneration
   nameWithType: TextTemplateImporter.removeIfEmptyGeneration
+- uid: FasterGames.T4.Editor.TextTemplateImporterEditor
+  name: TextTemplateImporterEditor
+  href: ref/FasterGames.T4.Editor.TextTemplateImporterEditor.html
+  commentId: T:FasterGames.T4.Editor.TextTemplateImporterEditor
+  fullName: FasterGames.T4.Editor.TextTemplateImporterEditor
+  nameWithType: TextTemplateImporterEditor
+- uid: FasterGames.T4.Editor.TextTemplateImporterEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: ref/FasterGames.T4.Editor.TextTemplateImporterEditor.html#FasterGames_T4_Editor_TextTemplateImporterEditor_OnInspectorGUI
+  commentId: M:FasterGames.T4.Editor.TextTemplateImporterEditor.OnInspectorGUI
+  fullName: FasterGames.T4.Editor.TextTemplateImporterEditor.OnInspectorGUI()
+  nameWithType: TextTemplateImporterEditor.OnInspectorGUI()
+- uid: FasterGames.T4.Editor.TextTemplateImporterEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: ref/FasterGames.T4.Editor.TextTemplateImporterEditor.html#FasterGames_T4_Editor_TextTemplateImporterEditor_OnInspectorGUI_
+  commentId: Overload:FasterGames.T4.Editor.TextTemplateImporterEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: FasterGames.T4.Editor.TextTemplateImporterEditor.OnInspectorGUI
+  nameWithType: TextTemplateImporterEditor.OnInspectorGUI
 - uid: FasterGames.T4.Editor.TextTemplateIncludeImporter
   name: TextTemplateIncludeImporter
   href: ref/FasterGames.T4.Editor.TextTemplateIncludeImporter.html
@@ -51,6 +138,117 @@ references:
   isSpec: "True"
   fullName: FasterGames.T4.Editor.TextTemplateIncludeImporter.OnImportAsset
   nameWithType: TextTemplateIncludeImporter.OnImportAsset
+- uid: FasterGames.T4.Editor.UnityDataHost`1
+  name: UnityDataHost<TData>
+  href: ref/FasterGames.T4.Editor.UnityDataHost-1.html
+  commentId: T:FasterGames.T4.Editor.UnityDataHost`1
+  name.vb: UnityDataHost(Of TData)
+  fullName: FasterGames.T4.Editor.UnityDataHost<TData>
+  fullName.vb: FasterGames.T4.Editor.UnityDataHost(Of TData)
+  nameWithType: UnityDataHost<TData>
+  nameWithType.vb: UnityDataHost(Of TData)
+- uid: FasterGames.T4.Editor.UnityDataHost`1.#ctor(`0,System.Collections.Generic.IEnumerable{System.String})
+  name: UnityDataHost(TData, IEnumerable<String>)
+  href: ref/FasterGames.T4.Editor.UnityDataHost-1.html#FasterGames_T4_Editor_UnityDataHost_1__ctor__0_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:FasterGames.T4.Editor.UnityDataHost`1.#ctor(`0,System.Collections.Generic.IEnumerable{System.String})
+  name.vb: UnityDataHost(TData, IEnumerable(Of String))
+  fullName: FasterGames.T4.Editor.UnityDataHost<TData>.UnityDataHost(TData, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: FasterGames.T4.Editor.UnityDataHost(Of TData).UnityDataHost(TData, System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: UnityDataHost<TData>.UnityDataHost(TData, IEnumerable<String>)
+  nameWithType.vb: UnityDataHost(Of TData).UnityDataHost(TData, IEnumerable(Of String))
+- uid: FasterGames.T4.Editor.UnityDataHost`1.#ctor*
+  name: UnityDataHost
+  href: ref/FasterGames.T4.Editor.UnityDataHost-1.html#FasterGames_T4_Editor_UnityDataHost_1__ctor_
+  commentId: Overload:FasterGames.T4.Editor.UnityDataHost`1.#ctor
+  isSpec: "True"
+  fullName: FasterGames.T4.Editor.UnityDataHost<TData>.UnityDataHost
+  fullName.vb: FasterGames.T4.Editor.UnityDataHost(Of TData).UnityDataHost
+  nameWithType: UnityDataHost<TData>.UnityDataHost
+  nameWithType.vb: UnityDataHost(Of TData).UnityDataHost
+- uid: FasterGames.T4.Editor.UnityDataHost`1.CreateInstance(System.Object,System.Collections.Generic.List{System.String})
+  name: CreateInstance(Object, List<String>)
+  href: ref/FasterGames.T4.Editor.UnityDataHost-1.html#FasterGames_T4_Editor_UnityDataHost_1_CreateInstance_System_Object_System_Collections_Generic_List_System_String__
+  commentId: M:FasterGames.T4.Editor.UnityDataHost`1.CreateInstance(System.Object,System.Collections.Generic.List{System.String})
+  name.vb: CreateInstance(Object, List(Of String))
+  fullName: FasterGames.T4.Editor.UnityDataHost<TData>.CreateInstance(System.Object, System.Collections.Generic.List<System.String>)
+  fullName.vb: FasterGames.T4.Editor.UnityDataHost(Of TData).CreateInstance(System.Object, System.Collections.Generic.List(Of System.String))
+  nameWithType: UnityDataHost<TData>.CreateInstance(Object, List<String>)
+  nameWithType.vb: UnityDataHost(Of TData).CreateInstance(Object, List(Of String))
+- uid: FasterGames.T4.Editor.UnityDataHost`1.CreateInstance*
+  name: CreateInstance
+  href: ref/FasterGames.T4.Editor.UnityDataHost-1.html#FasterGames_T4_Editor_UnityDataHost_1_CreateInstance_
+  commentId: Overload:FasterGames.T4.Editor.UnityDataHost`1.CreateInstance
+  isSpec: "True"
+  fullName: FasterGames.T4.Editor.UnityDataHost<TData>.CreateInstance
+  fullName.vb: FasterGames.T4.Editor.UnityDataHost(Of TData).CreateInstance
+  nameWithType: UnityDataHost<TData>.CreateInstance
+  nameWithType.vb: UnityDataHost(Of TData).CreateInstance
+- uid: FasterGames.T4.Editor.UnityDataHost`1.Data
+  name: Data
+  href: ref/FasterGames.T4.Editor.UnityDataHost-1.html#FasterGames_T4_Editor_UnityDataHost_1_Data
+  commentId: P:FasterGames.T4.Editor.UnityDataHost`1.Data
+  fullName: FasterGames.T4.Editor.UnityDataHost<TData>.Data
+  fullName.vb: FasterGames.T4.Editor.UnityDataHost(Of TData).Data
+  nameWithType: UnityDataHost<TData>.Data
+  nameWithType.vb: UnityDataHost(Of TData).Data
+- uid: FasterGames.T4.Editor.UnityDataHost`1.Data*
+  name: Data
+  href: ref/FasterGames.T4.Editor.UnityDataHost-1.html#FasterGames_T4_Editor_UnityDataHost_1_Data_
+  commentId: Overload:FasterGames.T4.Editor.UnityDataHost`1.Data
+  isSpec: "True"
+  fullName: FasterGames.T4.Editor.UnityDataHost<TData>.Data
+  fullName.vb: FasterGames.T4.Editor.UnityDataHost(Of TData).Data
+  nameWithType: UnityDataHost<TData>.Data
+  nameWithType.vb: UnityDataHost(Of TData).Data
+- uid: FasterGames.T4.Editor.UnityDataHost`1.SpecificHostType
+  name: SpecificHostType
+  href: ref/FasterGames.T4.Editor.UnityDataHost-1.html#FasterGames_T4_Editor_UnityDataHost_1_SpecificHostType
+  commentId: P:FasterGames.T4.Editor.UnityDataHost`1.SpecificHostType
+  fullName: FasterGames.T4.Editor.UnityDataHost<TData>.SpecificHostType
+  fullName.vb: FasterGames.T4.Editor.UnityDataHost(Of TData).SpecificHostType
+  nameWithType: UnityDataHost<TData>.SpecificHostType
+  nameWithType.vb: UnityDataHost(Of TData).SpecificHostType
+- uid: FasterGames.T4.Editor.UnityDataHost`1.SpecificHostType*
+  name: SpecificHostType
+  href: ref/FasterGames.T4.Editor.UnityDataHost-1.html#FasterGames_T4_Editor_UnityDataHost_1_SpecificHostType_
+  commentId: Overload:FasterGames.T4.Editor.UnityDataHost`1.SpecificHostType
+  isSpec: "True"
+  fullName: FasterGames.T4.Editor.UnityDataHost<TData>.SpecificHostType
+  fullName.vb: FasterGames.T4.Editor.UnityDataHost(Of TData).SpecificHostType
+  nameWithType: UnityDataHost<TData>.SpecificHostType
+  nameWithType.vb: UnityDataHost(Of TData).SpecificHostType
+- uid: FasterGames.T4.Runtime
+  name: FasterGames.T4.Runtime
+  href: ref/FasterGames.T4.Runtime.html
+  commentId: N:FasterGames.T4.Runtime
+  fullName: FasterGames.T4.Runtime
+  nameWithType: FasterGames.T4.Runtime
+- uid: FasterGames.T4.Runtime.IDataHost`1
+  name: IDataHost<TData>
+  href: ref/FasterGames.T4.Runtime.IDataHost-1.html
+  commentId: T:FasterGames.T4.Runtime.IDataHost`1
+  name.vb: IDataHost(Of TData)
+  fullName: FasterGames.T4.Runtime.IDataHost<TData>
+  fullName.vb: FasterGames.T4.Runtime.IDataHost(Of TData)
+  nameWithType: IDataHost<TData>
+  nameWithType.vb: IDataHost(Of TData)
+- uid: FasterGames.T4.Runtime.IDataHost`1.Data
+  name: Data
+  href: ref/FasterGames.T4.Runtime.IDataHost-1.html#FasterGames_T4_Runtime_IDataHost_1_Data
+  commentId: P:FasterGames.T4.Runtime.IDataHost`1.Data
+  fullName: FasterGames.T4.Runtime.IDataHost<TData>.Data
+  fullName.vb: FasterGames.T4.Runtime.IDataHost(Of TData).Data
+  nameWithType: IDataHost<TData>.Data
+  nameWithType.vb: IDataHost(Of TData).Data
+- uid: FasterGames.T4.Runtime.IDataHost`1.Data*
+  name: Data
+  href: ref/FasterGames.T4.Runtime.IDataHost-1.html#FasterGames_T4_Runtime_IDataHost_1_Data_
+  commentId: Overload:FasterGames.T4.Runtime.IDataHost`1.Data
+  isSpec: "True"
+  fullName: FasterGames.T4.Runtime.IDataHost<TData>.Data
+  fullName.vb: FasterGames.T4.Runtime.IDataHost(Of TData).Data
+  nameWithType: IDataHost<TData>.Data
+  nameWithType.vb: IDataHost(Of TData).Data
 - uid: Microsoft.VisualStudio.TextTemplating
   name: Microsoft.VisualStudio.TextTemplating
   href: ref/Microsoft.VisualStudio.TextTemplating.html
@@ -3139,13 +3337,13 @@ references:
   isSpec: "True"
   fullName: Mono.TextTemplating.TemplatingEngine.CompileTemplate
   nameWithType: TemplatingEngine.CompileTemplate
-- uid: Mono.TextTemplating.TemplatingEngine.GenerateCodeFromMembers(CodeDomProvider,CodeGeneratorOptions,System.IO.StringWriter,System.Collections.Generic.IEnumerable{CodeTypeMember})
+- uid: Mono.TextTemplating.TemplatingEngine.GenerateCodeFromMembers(CodeDomProvider,CodeGeneratorOptions,StringWriter,System.Collections.Generic.IEnumerable{CodeTypeMember})
   name: GenerateCodeFromMembers(CodeDomProvider, CodeGeneratorOptions, StringWriter, IEnumerable<CodeTypeMember>)
-  href: ref/Mono.TextTemplating.TemplatingEngine.html#Mono_TextTemplating_TemplatingEngine_GenerateCodeFromMembers_CodeDomProvider_CodeGeneratorOptions_System_IO_StringWriter_System_Collections_Generic_IEnumerable_CodeTypeMember__
-  commentId: M:Mono.TextTemplating.TemplatingEngine.GenerateCodeFromMembers(CodeDomProvider,CodeGeneratorOptions,System.IO.StringWriter,System.Collections.Generic.IEnumerable{CodeTypeMember})
+  href: ref/Mono.TextTemplating.TemplatingEngine.html#Mono_TextTemplating_TemplatingEngine_GenerateCodeFromMembers_CodeDomProvider_CodeGeneratorOptions_StringWriter_System_Collections_Generic_IEnumerable_CodeTypeMember__
+  commentId: M:Mono.TextTemplating.TemplatingEngine.GenerateCodeFromMembers(CodeDomProvider,CodeGeneratorOptions,StringWriter,System.Collections.Generic.IEnumerable{CodeTypeMember})
   name.vb: GenerateCodeFromMembers(CodeDomProvider, CodeGeneratorOptions, StringWriter, IEnumerable(Of CodeTypeMember))
-  fullName: Mono.TextTemplating.TemplatingEngine.GenerateCodeFromMembers(CodeDomProvider, CodeGeneratorOptions, System.IO.StringWriter, System.Collections.Generic.IEnumerable<CodeTypeMember>)
-  fullName.vb: Mono.TextTemplating.TemplatingEngine.GenerateCodeFromMembers(CodeDomProvider, CodeGeneratorOptions, System.IO.StringWriter, System.Collections.Generic.IEnumerable(Of CodeTypeMember))
+  fullName: Mono.TextTemplating.TemplatingEngine.GenerateCodeFromMembers(CodeDomProvider, CodeGeneratorOptions, StringWriter, System.Collections.Generic.IEnumerable<CodeTypeMember>)
+  fullName.vb: Mono.TextTemplating.TemplatingEngine.GenerateCodeFromMembers(CodeDomProvider, CodeGeneratorOptions, StringWriter, System.Collections.Generic.IEnumerable(Of CodeTypeMember))
   nameWithType: TemplatingEngine.GenerateCodeFromMembers(CodeDomProvider, CodeGeneratorOptions, StringWriter, IEnumerable<CodeTypeMember>)
   nameWithType.vb: TemplatingEngine.GenerateCodeFromMembers(CodeDomProvider, CodeGeneratorOptions, StringWriter, IEnumerable(Of CodeTypeMember))
 - uid: Mono.TextTemplating.TemplatingEngine.GenerateCodeFromMembers*
