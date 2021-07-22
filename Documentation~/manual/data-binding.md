@@ -58,3 +58,13 @@ For instance:
 If  your template fails to generate content after embedding data, this may be because the data class you're using is complex, and references other types that the template environment is not aware of. Usually if this is the case, the error will inform you of what type is missing. You may specify this type in [`additionalTypes`](xref:FasterGames.T4.Editor.TextTemplateImporter.additionalTypes) list, or simplify your data class.
 
 If you're not able to get it working, please [open an Issue](https://github.com/faster-games/t4/issues/new).
+
+### Why does my template break on first import?
+
+If your data class and your codegen classes are in the same assembly (asmdef folder), on first import you may experience an error indicating the `UnityEngine.Object` does not have required properties. This is because Unity wasn't able to generate the assembly with your data class before attempting the import - as such, your embedded data structure is missing.
+
+The quickest solution is to move your data class to it's own assembly:
+- Create a new folder
+- Create an Assembly Definition in that folder
+- Move the data class to this new folder
+- Add a reference to this new assembly in the codegen assembly

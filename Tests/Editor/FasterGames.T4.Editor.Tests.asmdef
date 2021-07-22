@@ -5,7 +5,8 @@
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
         "FasterGames.T4.Editor",
-        "FasterGames.T4.Runtime"
+        "FasterGames.T4.Runtime",
+        "FasterGames.T4.Editor.Tests.EditorTestRuntime"
     ],
     "includePlatforms": [
         "Editor"
