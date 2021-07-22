@@ -1,0 +1,16 @@
+{
+    "name": "FasterGames.T4.Editor.Tests.EditorTestRuntime",
+    "rootNamespace": "FasterGames.T4.Editor.Tests.EditorTestRuntime",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

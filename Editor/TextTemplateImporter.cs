@@ -97,7 +97,6 @@ namespace FasterGames.T4.Editor
                     var err = generator.Errors[i];
                     
                     Debug.LogError(err.ToString());
-                    Debug.LogError(dst);
                 }
             }
 

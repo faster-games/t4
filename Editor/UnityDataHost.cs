@@ -93,7 +93,7 @@ namespace FasterGames.T4.Editor
         /// <param name="res">refs to add</param>
         private void SafeAddRangeRef(IEnumerable<string> res)
         {
-            Refs.AddRange(res.SkipWhile(string.IsNullOrWhiteSpace));
+            Refs.AddRange(res.Where(r => !string.IsNullOrWhiteSpace(r)));
         }
         
         /// <summary>
@@ -116,7 +116,7 @@ namespace FasterGames.T4.Editor
         /// <param name="imports">imports to add</param>
         private void SafeAddRangeImport(IEnumerable<string> imports)
         {
-            Imports.AddRange(imports.SkipWhile(string.IsNullOrWhiteSpace));
+            Imports.AddRange(imports.Where(i => !string.IsNullOrWhiteSpace(i)));
         }
     }
 }
