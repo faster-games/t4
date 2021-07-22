@@ -120,6 +120,15 @@ public class &lt;#= animal#&gt;Test {}
 <h3 id="why-does-my-template-break-when-embeddeddata-is-enabled">Why does my template break when embeddedData is enabled?</h3>
 <p>If  your template fails to generate content after embedding data, this may be because the data class you're using is complex, and references other types that the template environment is not aware of. Usually if this is the case, the error will inform you of what type is missing. You may specify this type in <a class="xref" href="../ref/FasterGames.T4.Editor.TextTemplateImporter.html#FasterGames_T4_Editor_TextTemplateImporter_additionalTypes"><code>additionalTypes</code></a> list, or simplify your data class.</p>
 <p>If you're not able to get it working, please <a href="https://github.com/faster-games/t4/issues/new">open an Issue</a>.</p>
+<h3 id="why-does-my-template-break-on-first-import">Why does my template break on first import?</h3>
+<p>If your data class and your codegen classes are in the same assembly (asmdef folder), on first import you may experience an error indicating the <code>UnityEngine.Object</code> does not have required properties. This is because Unity wasn't able to generate the assembly with your data class before attempting the import - as such, your embedded data structure is missing.</p>
+<p>The quickest solution is to move your data class to it's own assembly:</p>
+<ul>
+<li>Create a new folder</li>
+<li>Create an Assembly Definition in that folder</li>
+<li>Move the data class to this new folder</li>
+<li>Add a reference to this new assembly in the codegen assembly</li>
+</ul>
 </article>
           </div>
           
