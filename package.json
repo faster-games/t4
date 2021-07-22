@@ -1,6 +1,6 @@
 {
   "name": "com.faster-games.t4",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "displayName": "T4 Templates",
   "description": "T4 text template generative importer for Unity3D",
   "unity": "2020.3",

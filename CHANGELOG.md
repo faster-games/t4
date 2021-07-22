@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/faster-games/t4/compare/v1.4.0...v1.4.1) (2021-07-22)
+
+
+### Bug Fixes
+
+* **misc:** Embedded data namespaces, tests 🐛 ([#8](https://github.com/faster-games/t4/issues/8)) ([742d625](https://github.com/faster-games/t4/commit/742d6256dfe0f45eee67a433c6b860639e1f1873)), closes [#6](https://github.com/faster-games/t4/issues/6) [#7](https://github.com/faster-games/t4/issues/7)
+
 # [1.4.0](https://github.com/faster-games/t4/compare/v1.3.2...v1.4.0) (2021-07-22)
 
 
