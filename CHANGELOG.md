@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/faster-games/t4/compare/v1.3.2...v1.4.0) (2021-07-22)
+
+
+### Features
+
+* **data-binding:** Add data binding support 🧬 ([#5](https://github.com/faster-games/t4/issues/5)) ([e94bd96](https://github.com/faster-games/t4/commit/e94bd9623f8ed521ffcc92ee8acc453efc1669c4))
+
 ## [1.3.2](https://github.com/faster-games/t4/compare/v1.3.1...v1.3.2) (2021-07-20)
 
 
