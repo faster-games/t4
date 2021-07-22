@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace FasterGames.T4.Editor
 {
+    /// <summary>
+    /// Editor extensions to add TT creation to right click menus
+    /// </summary>
     public static class EditorExtensions
     {
         /// <summary>

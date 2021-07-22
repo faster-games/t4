@@ -5,6 +5,9 @@ using Object = UnityEngine.Object;
 
 namespace FasterGames.T4.Editor
 {
+    /// <summary>
+    /// Internal editor utilities
+    /// </summary>
     internal static class EditorUtils
     {
         /// <summary>

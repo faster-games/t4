@@ -5,8 +5,16 @@ using System.Linq;
 
 namespace FasterGames.T4.Editor
 {
+    /// <summary>
+    /// Internal reflection utils
+    /// </summary>
     internal static class ReflectionUtils
     {
+        /// <summary>
+        /// Get the child types from a src type
+        /// </summary>
+        /// <param name="src">src type</param>
+        /// <returns>child types</returns>
         public static IReadOnlyCollection<Type> ChildTypes(Type src)
         {
             List<Type> types = new List<Type>();
@@ -16,6 +24,11 @@ namespace FasterGames.T4.Editor
             return types;
         }
 
+        /// <summary>
+        /// Internal helper to add missing child types to a list
+        /// </summary>
+        /// <param name="src">src type</param>
+        /// <param name="types">existing types</param>
         private static void AddMissingChildTypes(Type src, ref List<Type> types)
         {
             var fieldTypes = src.GetFields().Select(f => f.FieldType);
