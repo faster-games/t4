@@ -4,7 +4,6 @@
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "FasterGames.T4",
         "FasterGames.T4.Editor",
         "FasterGames.T4.Runtime"
     ],
