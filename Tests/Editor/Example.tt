@@ -1,0 +1,16 @@
+<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ output extension=".cs" #>
+<#@ import namespace="System.IO" #>
+using System;
+
+<#
+    foreach (var animal in Host.Data.Animals)
+    {
+#>
+
+[Serializable]
+public class <#= animal#>Test {}
+
+<#
+    }
+#>

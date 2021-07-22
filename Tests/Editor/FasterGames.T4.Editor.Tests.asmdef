@@ -1,11 +1,11 @@
 {
     "name": "FasterGames.T4.Editor.Tests",
-    "rootNamespace": "",
+    "rootNamespace": "FasterGames.T4.Editor.Tests",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "FasterGames.T4",
-        "FasterGames.T4.Editor"
+        "FasterGames.T4.Editor",
+        "FasterGames.T4.Runtime"
     ],
     "includePlatforms": [
         "Editor"

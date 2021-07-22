@@ -1,12 +1,8 @@
 {
-    "name": "FasterGames.T4.Editor",
-    "rootNamespace": "FasterGames.T4.Editor",
-    "references": [
-        "GUID:70eadbddef1576040aa024086713826d"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "name": "FasterGames.T4.Runtime",
+    "rootNamespace": "FasterGames.T4.Runtime",
+    "references": [],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

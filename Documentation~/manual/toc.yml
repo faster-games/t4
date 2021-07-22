@@ -1,4 +1,6 @@
 - name: Getting Started
   href: getting-started.md
+- name: Data Binding
+  href: data-binding.md
 - name: Contributing
   href: contributing.md
